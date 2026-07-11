@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px 15px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    box-shadow: 10px gray;
+    padding: 2px;
+}
