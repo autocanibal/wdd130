@@ -1,8 +1,8 @@
 :root {
     --primary-color: navy;
-    --secondary-color: seashell;
-    --accent1-color: forestgreen;
-    --accent2-color: khaki;
+    --secondary-color: white;
+    --accent1-color: blue;
+    --accent2-color: seashell;
     --heading-font: Garamond, Georgia, serif;
     --body-font: Copperplate, Papyrus, sans-serif;
 }
