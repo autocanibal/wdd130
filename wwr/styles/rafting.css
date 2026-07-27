@@ -25,6 +25,19 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -76,6 +89,41 @@ h1 {
     width: 125px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.history h2 {
+    grid-column: 1/4;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+
+.adventure h2 {
+    grid-column: 1/6;
+}
+
+.adventure img {
+    width: 200px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 footer img {
-    width: 100px;
+    width: 35px;
 }
